@@ -16,7 +16,12 @@ class GUI {
     draw(agents, population) {
         fill(100, 105, 110, 255);
         rect(this.pos.x, this.pos.y, this.width, this.height);
-
+        fill(50);
+        textSize(20);
+        text("Switch between pages with LEFT / RIGHT arrow keys", this.pos.x + 120, this.pos.y + 25);
+        text("A new generation is created when all agents die or the score exceeds 1000", this.pos.x + 120, this.pos.y + 50);
+        text("Press SPACE to start a new generation manually", this.pos.x + 120, this.pos.y + 75)
+        
         const scale = (this.width / windowWidth) / this.drawAmount * 0.6;
 
         for(let i = this.startIndex; i < this.drawAmount + this.startIndex; i++) {
