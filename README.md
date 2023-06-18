@@ -3,7 +3,7 @@
 My implementation of the NEAT algorithm.
 It's still in its early stages, but I wanted to share my progress.
 
-Implementation is based on:
+References:
 
 Original NEAT publication: https://nn.cs.utexas.edu/downloads/papers/stanley.cec02.pdf
 
